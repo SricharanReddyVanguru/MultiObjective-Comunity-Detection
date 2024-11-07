@@ -38,7 +38,7 @@ Clone the Repository:
 bash
 Copy code
 git clone https://github.com/SricharanReddyVanguru/MultiObjective-Comunity-Detection.git
-cd MultiObjective-Comunity-Detection/EMOFM-DK
+cd MultiObjective-Comunity-Detection/Comunitydetection/
 Run the Main Script:
 
 Open Main.m in MATLAB.
