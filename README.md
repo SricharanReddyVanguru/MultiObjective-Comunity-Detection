@@ -35,10 +35,12 @@ Prerequisites
 MATLAB: The project is implemented in MATLAB, so make sure you have it installed.
 Running the Project
 Clone the Repository:
-bash
-Copy code
+
+
 git clone https://github.com/SricharanReddyVanguru/MultiObjective-Comunity-Detection.git
+
 cd MultiObjective-Comunity-Detection/Comunitydetection/
+
 Run the Main Script:
 
 Open Main.m in MATLAB.
