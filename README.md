@@ -29,24 +29,6 @@ Crossover and Mutation: Introduces variability to explore possible partitions.
 Termination and Result Analysis: The algorithm runs until convergence or a set number of generations, producing a set of non-dominated solutions that represent different trade-offs between modularity and similarity.
 
 
-## Project Structure
-
-Here is a breakdown of the main files and folders:
-
-Main.m: Main script to run the community detection algorithm.
-NSGA2.m: Implements the NSGA-II algorithm, handling the genetic operations and population evolution.
-Community and Objective Functions:
-Calculate_EQ.m: Computes modularity for a given community partition.
-Calculate_NMI.m and FuncNMI.m: Calculate NMI to assess clustering quality.
-compute_objective.m: Computes the combined objective values for each solution.
-Utilities:
-Initial_Population.m: Generates an initial set of community structures.
-LocalKmeans.m: Uses local clustering algorithms, likely to refine partitions.
-PLOTFUNCTION.m: Visualizes results, showing community structure.
-Results and Outputs:
-result_NMI.txt: Stores the calculated NMI values for evaluation.
-results/: Directory for storing results of multiple runs or parameter configurations.
-
 ## Usage Instructions
 
 Prerequisites
